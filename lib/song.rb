@@ -4,10 +4,11 @@ class Song
 
   #@@songs = []  #class variable-> holds instances of every song that's been created
 
-  def initialize(name, artist)
-    @name = name
-    @artist = artist
-  end
+#  def initialize(name, artist)
+
+#    @name = name
+#    @artist = artist
+#  end
 
 #  def #self.songs  #class method-> returns class variable containing song collection
     #@@songs
