@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :name, :artist
 
-  @@songs = []
+  @@songs = []  #class variable-> holds instances of every song that's been created
 
   def initialize(name, artist)
     @name = name
@@ -10,7 +10,7 @@ class Song
     @@songs << self
   end
 
-  def self.all?
+  def self.songs  #class method-> returns class variable containing song collection
     @@songs
   end
 
