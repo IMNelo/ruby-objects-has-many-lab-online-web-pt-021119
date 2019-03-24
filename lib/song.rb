@@ -7,7 +7,7 @@ class Song
   def initialize(name, artist)
     @name = name
     @artist = artist
-    @@songs << song
+    #@@songs << song
   end
 
   def self.songs  #class method-> returns class variable containing song collection
