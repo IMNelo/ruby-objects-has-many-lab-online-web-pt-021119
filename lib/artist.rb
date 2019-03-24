@@ -7,7 +7,7 @@ class Artist
     @songs = []
   end
 
-  def songs
+  def songs #returns a collection of all the songs that belong to the artist
     @songs
   end
 
@@ -17,6 +17,7 @@ class Artist
   end
 
   def add_song_by_name(song_name)
+    
   end
 
   def song_count
